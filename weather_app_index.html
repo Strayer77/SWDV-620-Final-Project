@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Web App</title>
+    <link rel="stylesheet" href="weather-app-style.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+  </head>
+
+<body>
+  <div class="container-fluid">
+    <div class="jumbotron">
+      <header class="header">
+        <div class="jumbotron page-header">
+          <h1 class="text-center"><kbd><span class="glyphicon glyphicon-cloud"></span> Matt's Weather App</kbd></h1>
+        </div> 
+        <div class="search">
+          <div class="text-center">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-tint"></i></span>
+              <input type="text" class="form-control" placeholder="Enter City Name" id="search-txt">  
+            </div>
+            <button type="button" class="btn" id="search-btn">
+              <span class="glyphicon glyphicon-search"></span> Search
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div class="well">
+          <div class="media">
+              <div class="media-left">
+                <img src="Monty_Python_Weather.gif" class="media-object">
+              </div>
+              <div class="media-body">
+                <div class="text-center">
+                  <h3 class="media-heading"><kbd>Results:</kbd></h3>
+                  <main id="main">
+        
+                      <div class="city-icon">
+                        <div class="city-icon-holder">
+                        <div id="city-name"></div>
+                        <img src="" alt="" id="icon">
+                        </div>
+                      </div>
+                      
+                      <div class="temperature">
+                        <div id="temp"></div>
+                      </div>
+                      
+                      <div class="humidity">
+                        <div id="humidity-div"></div>
+                      </div>
+                    </main>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+  <script  src="index.js"></script>
+</body>
+
+</html>

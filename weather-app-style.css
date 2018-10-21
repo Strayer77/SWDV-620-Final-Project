@@ -1,0 +1,37 @@
+body {
+    background-color: #333333;
+}
+
+.jumbotron {
+    background-color: #D64229 !important;
+  }
+
+  #temp, #humidity-div {
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: 40px;
+    color: #333333;
+}
+
+#city-name {
+    font-family: "Courier New";
+    font-size: 45px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+#icon {
+    width:10%;
+  }
+
+
+.search {
+    padding: 15px;
+}
+
+#search-btn {
+    margin: 10px;
+}
+
+
+  
